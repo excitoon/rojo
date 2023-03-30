@@ -6,7 +6,7 @@ with open(f"{os.path.dirname(os.path.abspath(__file__))}/requirements.txt") as r
     with open(f"{os.path.dirname(os.path.abspath(__file__))}/README.md") as readme:
         setuptools.setup(
             name="rojo",
-            version="1.0.1",
+            version="1.0.2",
             description="...written in Python",  # FIXME
             long_description=readme.read(),
             long_description_content_type="text/markdown",

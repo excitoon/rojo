@@ -113,3 +113,5 @@ if not lines:
     lines.append("No {language} files are present to be {formatted}. Nothing to do 😴")
 
 print(", ".join(lines))
+
+sys.exit(check and stats["reformatted"] > 0)
